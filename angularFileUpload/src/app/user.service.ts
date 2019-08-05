@@ -12,6 +12,6 @@ export class UserService {
   }
 
   saveUserProfile(formData: FormData): Observable<any>{
-    return this.http.post('http://localhost:8000/saveUserProfile', formData);
+    return this.http.post('http://localhost:8000/saveUserProfileInServer', formData);
   }
 }
